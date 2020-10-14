@@ -1,0 +1,33 @@
+{
+  "name": "Candidate",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nama": {
+      "type": "string",
+      "required": true
+    },
+    "NoUrut": {
+      "type": "string",
+      "required": true
+    },
+    "Visi": {
+      "type": "string"
+    },
+    "Misi": {
+      "type": "string"
+    },
+    "JumlahPemilih": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

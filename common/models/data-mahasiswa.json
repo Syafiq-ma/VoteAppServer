@@ -1,0 +1,33 @@
+{
+  "name": "dataMahasiswa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nama": {
+      "type": "string"
+    },
+    "NIM": {
+      "type": "string"
+    },
+    "Angkatan": {
+      "type": "string"
+    },
+    "sudahMemilih": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
