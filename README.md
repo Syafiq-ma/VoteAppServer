@@ -96,7 +96,6 @@ Memiliki concern untuk membatasi diri dari paparan echo-chamber yang diakibatkan
 | Locate Topics | Website dapat melakukan lokasi dari mayoritas akun yang melakukan cuitan tertentu. |
 
 ### E. Entity Relationship Diagram
-![Entity Relationship Diagram](https://drive.google.com/uc?export=view&id=1tGYMAVJNwfF5VwzPkkbDb4QPrJ2__7b2)
 
 ### F. Low Fidelity Wireframe
 ![Low Fidelity Wireframe](https://drive.google.com/uc?export=view&id=1YYDL9Jk7FpfU-NpivL5LGxhANt2-PG9c)
